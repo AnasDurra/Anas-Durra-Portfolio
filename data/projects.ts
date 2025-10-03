@@ -1,0 +1,133 @@
+export interface Project {
+  slug: string;
+  name: string;
+  summary: string;
+  role: string;
+  tech: string[];
+  highlights: string[];
+  outcomes: string[];
+  repoUrls: string[];
+  liveUrl?: string;
+  secondLiveUrl?: string;
+  docUrl?: string;
+  featured: boolean;
+}
+
+export const projects: Project[] = [
+  {
+    slug: "events-organization-platform-weevent",
+    name: "Events Organization Platform (Weevent)",
+    summary:
+      "Comprehensive platform for planning, ticketing, engagement, and analytics. Built as a graduation project to streamline organizer/attendee/admin workflows.",
+    role: "Frontend Lead",
+    tech: [
+      "React",
+      "Redux Toolkit",
+      "Ant Design",
+      "Socket.IO",
+      "NestJS",
+      "TypeScript",
+      "Stripe",
+      "Puppeteer",
+    ],
+    highlights: [
+      "Dynamic roles (organizer/attendee/admin)",
+      "Custom registration forms",
+      "Ticketing with gift-cards; Stripe integration",
+      "Gamification (points, badges, rewards)",
+      "Real-time chat (Socket.IO)",
+      "Attendance via QR check-in",
+      "Analytics dashboards",
+    ],
+    outcomes: [
+      "Faster setup for events",
+      "Improved engagement via gamification",
+    ],
+    repoUrls: [
+      "https://github.com/AnasDurra/events-organization-platform-web-public-panel",
+      "https://github.com/AnasDurra/events-organization-platform-web-admin-panel",
+    ],
+    liveUrl: "https://events-organization-platform-web-pu.vercel.app/login",
+    secondLiveUrl:
+      "https://events-organization-platform-web-ad.vercel.app/login",
+    featured: true,
+  },
+  {
+    slug: "hr-and-reservation-management-system",
+    name: "HR & Reservation Management System",
+    summary:
+      "Full-stack system covering recruitment, onboarding, attendance, permissions, hall reservations, and reporting.",
+    role: "Full-Stack Developer",
+    tech: ["Laravel", "MySQL", "React"],
+    highlights: [
+      "Role-Based Access Control (RBAC)",
+      "Recruitment and onboarding flows",
+      "Attendance and permissions",
+      "Reservation scheduling",
+      "Reporting on retention/absenteeism/customer analytics",
+      "Automated workflows; reduced time-to-hire by ~30%",
+    ],
+    outcomes: ["~30% faster time-to-hire"],
+    repoUrls: [
+      "https://github.com/AnasDurra/HR-and-Reservation-Management-System-backend",
+    ],
+    liveUrl: "https://hr-and-reservation-management-syste.vercel.app/login",
+    featured: true,
+  },
+  {
+    slug: "school-management-system",
+    name: "School Management System",
+    summary:
+      "Enrollment, class scheduling, attendance, grades, parent-teacher communication; secure and performant data management.",
+    role: "Full-Stack Developer",
+    tech: ["Laravel", "React", "SQL"],
+    highlights: [
+      "Student enrollment + class scheduling",
+      "Attendance + grading",
+      "Parent–teacher messaging",
+      "RBAC for privacy and security",
+    ],
+    outcomes: ["Streamlined operations for schools"],
+    repoUrls: ["https://github.com/AnasDurra/School-Management-System-backend"],
+    liveUrl: "https://sms-wlms.vercel.app/",
+    featured: true,
+    docUrl:
+      "https://docs.google.com/document/d/1h8SxQaMUPIpzgRgkSiq1jSYx_8RVmFXcRo4sPrYc5oc/edit?usp=sharing",
+  },
+  {
+    slug: "search-engine-project",
+    name: "Search Engine Project",
+    summary: "TF-IDF + word-embedding retrieval",
+    role: "Developer",
+    tech: ["Python", "NLP"],
+    highlights: ["TF-IDF algorithm", "Word embedding retrieval"],
+    outcomes: [],
+    repoUrls: ["https://github.com/AnasDurra/Search-Engine-Project"],
+    featured: false,
+  },
+  {
+    slug: "kanban-task-board",
+    name: "Kanban Task Board",
+    summary: "Audit Station assignment",
+    role: "Developer",
+    tech: ["React", "TypeScript"],
+    highlights: ["Drag and drop interface", "Task management"],
+    outcomes: [],
+    repoUrls: ["https://github.com/AnasDurra/kanban-task-board"],
+    featured: false,
+  },
+  {
+    slug: "image-colors-quantizer",
+    name: "Image Colors Quantizer",
+    summary: "Java color quantization",
+    role: "Developer",
+    tech: ["Java"],
+    highlights: ["Color quantization algorithm"],
+    outcomes: [],
+    repoUrls: ["https://github.com/AnasDurra/Image-Colors-Quantizer"],
+    featured: false,
+  },
+];
+
+export const featuredProjects = projects.filter((p) => p.featured);
+export const secondaryProjects = projects.filter((p) => !p.featured);
