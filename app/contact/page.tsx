@@ -61,6 +61,7 @@ export default function ContactPage() {
                     href={profile.links.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex items-center gap-2 hover:text-primary"
                   >
                     View Profile
                   </a>
@@ -88,6 +89,7 @@ export default function ContactPage() {
                     href={profile.links.github}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex items-center gap-2 hover:text-primary"
                   >
                     View Repositories
                   </a>

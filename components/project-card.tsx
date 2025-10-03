@@ -109,6 +109,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
                 href={project.repoUrls[0]}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-primary "
               >
                 <Github className="h-4 w-4" />
                 View Code
@@ -127,6 +128,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
                 href={project.docUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-primary"
               >
                 <BookOpen className="h-4 w-4" />
                 Documentation

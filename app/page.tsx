@@ -46,7 +46,11 @@ export default function HomePage() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <a href="/Anas_Durra_CV.pdf" download="anas_durra_cv.pdf">
+              <a
+                href="/Anas_Durra_CV.pdf"
+                download="anas_durra_cv.pdf"
+                className="flex items-center gap-2 hover:text-primary"
+              >
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
               </a>
@@ -183,6 +187,7 @@ export default function HomePage() {
                 href={profile.links.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-primary"
               >
                 Connect on LinkedIn
               </a>
