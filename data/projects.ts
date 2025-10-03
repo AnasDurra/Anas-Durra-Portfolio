@@ -75,17 +75,26 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    slug: "compiler-project",
-    name: "Compiler Project",
+    slug: "flutter-to-html-and-js-transpiler",
+    name: "Flutter to HTML and JS Transpiler",
     summary:
-      "A compiler designed for parsing and compiling programming languages.",
+      "A compiler designed to parse and transpile Flutter/Dart code into HTML and JavaScript, enabling seamless integration of Flutter applications into web platforms.",
     role: "Developer",
-    tech: ["JavaScript", "Node.js", "Regular Expressions"],
-    highlights: ["Lexical analysis", "Syntax analysis", "Code generation"],
-    outcomes: [
-      "Demonstrated proficiency in compiler design and implementation",
+    tech: ["Flutter", "Dart", "JavaScript", "HTML", "CSS"],
+    highlights: [
+      "Lexical analysis and parsing of Flutter/Dart code",
+      "Syntax analysis to generate intermediate representations",
+      "Code generation to transpile Dart code into HTML and JavaScript",
+      "Cross-platform compatibility for integrating Flutter projects into web applications",
+      "Compiler design principles applied to a real-world transpiler project",
     ],
-    repoUrls: ["https://github.com/AnasDurra/Compiler-Project"],
+    outcomes: [
+      "Enabled smooth integration of Flutter projects into web applications",
+      "Demonstrated proficiency in compiler and transpiler design and implementation",
+    ],
+    repoUrls: [
+      "https://github.com/AnasDurra/flutter-to-html-and-js-transpiler",
+    ],
     liveUrl: "https://transpiler-4iaa.onrender.com/",
     featured: true,
   },
