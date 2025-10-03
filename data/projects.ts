@@ -99,26 +99,6 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    slug: "school-management-system",
-    name: "School Management System",
-    summary:
-      "Enrollment, class scheduling, attendance, grades, parent-teacher communication; secure and performant data management.",
-    role: "Full-Stack Developer",
-    tech: ["Laravel", "React", "SQL"],
-    highlights: [
-      "Student enrollment + class scheduling",
-      "Attendance + grading",
-      "Parent–teacher messaging",
-      "RBAC for privacy and security",
-    ],
-    outcomes: ["Streamlined operations for schools"],
-    repoUrls: ["https://github.com/AnasDurra/School-Management-System-backend"],
-    liveUrl: "https://sms-wlms.vercel.app/",
-    featured: true,
-    docUrl:
-      "https://docs.google.com/document/d/1h8SxQaMUPIpzgRgkSiq1jSYx_8RVmFXcRo4sPrYc5oc/edit?usp=sharing",
-  },
-  {
     slug: "kanban-task-board",
     name: "Kanban Task Board",
     summary:
@@ -139,8 +119,29 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://kanban-task-board-roan.vercel.app/",
     repoUrls: ["https://github.com/AnasDurra/kanban-task-board"],
-    featured: false,
+    featured: true,
   },
+  {
+    slug: "school-management-system",
+    name: "School Management System",
+    summary:
+      "Enrollment, class scheduling, attendance, grades, parent-teacher communication; secure and performant data management.",
+    role: "Full-Stack Developer",
+    tech: ["Laravel", "React", "SQL"],
+    highlights: [
+      "Student enrollment + class scheduling",
+      "Attendance + grading",
+      "Parent–teacher messaging",
+      "RBAC for privacy and security",
+    ],
+    outcomes: ["Streamlined operations for schools"],
+    repoUrls: ["https://github.com/AnasDurra/School-Management-System-backend"],
+    liveUrl: "https://sms-wlms.vercel.app/",
+    featured: false,
+    docUrl:
+      "https://docs.google.com/document/d/1h8SxQaMUPIpzgRgkSiq1jSYx_8RVmFXcRo4sPrYc5oc/edit?usp=sharing",
+  },
+
   {
     slug: "search-engine-project",
     name: "Search Engine Project",
