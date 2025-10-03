@@ -119,6 +119,29 @@ export const projects: Project[] = [
       "https://docs.google.com/document/d/1h8SxQaMUPIpzgRgkSiq1jSYx_8RVmFXcRo4sPrYc5oc/edit?usp=sharing",
   },
   {
+    slug: "kanban-task-board",
+    name: "Kanban Task Board",
+    summary:
+      "A task management application built with React and TypeScript that allows users to create, manage, and track tasks using a Kanban board interface. Includes drag-and-drop functionality for task organization.",
+    role: "Developer",
+    tech: ["React", "TypeScript", "React DnD", "CSS"],
+    highlights: [
+      "Drag-and-drop interface for seamless task management",
+      "Interactive task creation, editing, and deletion",
+      "Column-based task categorization (To Do, In Progress, Done)",
+      "Persistent task state using localStorage for session persistence",
+      "Responsive design for usability on different screen sizes",
+    ],
+    outcomes: [
+      "Built a functional Kanban board with interactive drag-and-drop capabilities",
+      "Implemented persistent task state storage to maintain tasks across sessions",
+      "Enhanced user experience by optimizing responsiveness and task management features",
+    ],
+    liveUrl: "https://kanban-task-board-roan.vercel.app/",
+    repoUrls: ["https://github.com/AnasDurra/kanban-task-board"],
+    featured: false,
+  },
+  {
     slug: "search-engine-project",
     name: "Search Engine Project",
     summary: "TF-IDF + word-embedding retrieval",
@@ -129,17 +152,7 @@ export const projects: Project[] = [
     repoUrls: ["https://github.com/AnasDurra/Search-Engine-Project"],
     featured: false,
   },
-  {
-    slug: "kanban-task-board",
-    name: "Kanban Task Board",
-    summary: "Audit Station assignment",
-    role: "Developer",
-    tech: ["React", "TypeScript"],
-    highlights: ["Drag and drop interface", "Task management"],
-    outcomes: [],
-    repoUrls: ["https://github.com/AnasDurra/kanban-task-board"],
-    featured: false,
-  },
+
   {
     slug: "image-colors-quantizer",
     name: "Image Colors Quantizer",
