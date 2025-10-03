@@ -46,7 +46,7 @@ export default function HomePage() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <a href={profile.links.cv} download>
+              <a href="/Anas_Durra_CV.pdf" download="anas_durra_cv.pdf">
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
               </a>

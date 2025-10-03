@@ -1,15 +1,20 @@
 export const profile = {
   name: "Anas Durra",
   title: "Software Engineer (Frontend/Full-Stack)",
-  subtitle: "React/Next.js specialist. Built multi-module ERP apps and high-traffic event platforms.",
+  subtitle:
+    "React/Next.js specialist. Built multi-module ERP apps and high-traffic event platforms.",
   location: "Damascus, Syria",
   email: "durra.anaskhalid@gmail.com",
   links: {
     github: "https://github.com/AnasDurra",
     linkedin: "https://linkedin.com/in/anas-durra",
-    cv: "/Anas-Durra-CV.pdf",
+    cv: "/anas_durra_cv.pdf",
   },
-  quickFacts: ["Top of class", "National exam rank #1 (IT, 2024)", "Damascus University"],
+  quickFacts: [
+    "Top of class",
+    "National exam rank #1 (IT, 2024)",
+    "Damascus University",
+  ],
   bio: "Software Engineer focused on web platforms that ship fast and scale cleanly. Strong in React/Next.js, TypeScript, state management, API integration, and workflow automation. Collaborative, detail-driven, and comfortable owning end-to-end delivery.",
   education: {
     degree: "B.Sc. Software Engineering",
@@ -52,4 +57,4 @@ export const profile = {
       ],
     },
   ],
-}
+};

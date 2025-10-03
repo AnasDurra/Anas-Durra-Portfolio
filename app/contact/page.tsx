@@ -1,8 +1,14 @@
-import { Section } from "@/components/section"
-import { profile } from "@/data/profile"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Mail, Github, Linkedin, MapPin } from "lucide-react"
+import { Section } from "@/components/section";
+import { profile } from "@/data/profile";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Mail, Github, Linkedin, MapPin } from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -12,8 +18,8 @@ export default function ContactPage() {
           <div className="space-y-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold">Get in Touch</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-              I'm always interested in hearing about new opportunities, collaborations, or just connecting with fellow
-              developers.
+              I'm always interested in hearing about new opportunities,
+              collaborations, or just connecting with fellow developers.
             </p>
           </div>
 
@@ -46,8 +52,16 @@ export default function ContactPage() {
                 </div>
               </CardHeader>
               <CardContent>
-                <Button asChild variant="outline" className="w-full bg-transparent">
-                  <a href={profile.links.linkedin} target="_blank" rel="noopener noreferrer">
+                <Button
+                  asChild
+                  variant="outline"
+                  className="w-full bg-transparent"
+                >
+                  <a
+                    href={profile.links.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Profile
                   </a>
                 </Button>
@@ -65,8 +79,16 @@ export default function ContactPage() {
                 </div>
               </CardHeader>
               <CardContent>
-                <Button asChild variant="outline" className="w-full bg-transparent">
-                  <a href={profile.links.github} target="_blank" rel="noopener noreferrer">
+                <Button
+                  asChild
+                  variant="outline"
+                  className="w-full bg-transparent"
+                >
+                  <a
+                    href={profile.links.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Repositories
                   </a>
                 </Button>
@@ -94,10 +116,11 @@ export default function ContactPage() {
               <div className="text-center space-y-4">
                 <h2 className="text-2xl font-bold">Looking for My CV?</h2>
                 <p className="text-muted-foreground text-pretty">
-                  Download my full resume to learn more about my experience, skills, and projects.
+                  Download my full resume to learn more about my experience,
+                  skills, and projects.
                 </p>
                 <Button asChild size="lg">
-                  <a href={profile.links.cv} download>
+                  <a href={profile.links.cv} download="anas_durra_cv.pdf">
                     Download CV
                   </a>
                 </Button>
@@ -107,5 +130,5 @@ export default function ContactPage() {
         </div>
       </Section>
     </main>
-  )
+  );
 }
