@@ -75,6 +75,21 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    slug: "compiler-project",
+    name: "Compiler Project",
+    summary:
+      "A compiler designed for parsing and compiling programming languages.",
+    role: "Developer",
+    tech: ["JavaScript", "Node.js", "Regular Expressions"],
+    highlights: ["Lexical analysis", "Syntax analysis", "Code generation"],
+    outcomes: [
+      "Demonstrated proficiency in compiler design and implementation",
+    ],
+    repoUrls: ["https://github.com/AnasDurra/Compiler-Project"],
+    liveUrl: "https://transpiler-4iaa.onrender.com/",
+    featured: true,
+  },
+  {
     slug: "school-management-system",
     name: "School Management System",
     summary:

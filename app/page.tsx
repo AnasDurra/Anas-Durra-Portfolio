@@ -86,7 +86,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
             {featuredProjects.map((project) => (
               <ProjectCard key={project.slug} project={project} />
             ))}
