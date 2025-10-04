@@ -47,7 +47,7 @@ export default function HomePage() {
             </Button>
             <Button asChild size="lg" variant="outline">
               <a
-                href="/Anas_Durra_CV.pdf"
+                href={profile.links.cv}
                 download="anas_durra_cv.pdf"
                 className="flex items-center gap-2 hover:text-primary"
               >
